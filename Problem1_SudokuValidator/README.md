@@ -1,0 +1,3 @@
+# Problem 1: Sudoku Validator
+
+Validates a 9x9 Sudoku board with custom zones...
