@@ -29,6 +29,7 @@ bool isValidSudoku(vector<vector<char>>& board, vector<vector<pair<int, int>>>& 
 }
 
 int main() {
+    // state space 
     vector<vector<char>> board = {
         {'5','3','.','.','7','.','.','.','.'},
         {'6','.','.','1','9','5','.','.','.'},

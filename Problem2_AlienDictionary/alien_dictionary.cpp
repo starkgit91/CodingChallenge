@@ -20,6 +20,7 @@ string alienOrder(vector<string>& words) {
                 break;
             }
         }
+        
     }
 
     queue<char> q;

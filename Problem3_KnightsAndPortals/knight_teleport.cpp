@@ -18,10 +18,10 @@ int minStepsWithTeleport(vector<vector<int>>& grid) {
 
     while (!q.empty()) {
         tuple<int, int, int, bool> curr = q.front();
-        int x = get<0>(curr);
-        int y = get<1>(curr);
-        int steps = get<2>(curr);
-        bool used = get<3>(curr);
+        auto x = get<0>(curr);
+        auto y = get<1>(curr);
+        auto steps = get<2>(curr);
+        auto used = get<3>(curr);
         q.pop();
         if (x == n-1 && y == m-1) return steps;
 
